@@ -1,2 +1,13 @@
 This source code is provided under the license included in the source header files.
+<<<<<<< HEAD
 The EULA agreement referenced can be found at http://www.madewithmarmalade.com
+=======
+The EULA agreement referenced can be found at http://www.madewithmarmalade.com
+
+
+The default folder for this extension is:
+(MARMALADE_ROOT)/extensions/
+
+The default folder for the accompanying example is:
+(MARMALADE_ROOT)/examples/s3e/
+>>>>>>> a6bdf7d6b8d1ebd06db7d0565a09cb6ea60a0182
