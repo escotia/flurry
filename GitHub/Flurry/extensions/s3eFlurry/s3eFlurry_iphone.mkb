@@ -2,17 +2,17 @@
 # Builder mkb file for the s3eFlurry extension on iphone
 platform IPHONE
 
-includepath lib/iphone/libFlurry/Analytics
-includepath lib/iphone/libFlurry/AppCircle
+includepath lib/iphone/libFlurry/FlurryAnalytics
+includepath lib/iphone/libFlurry/FlurryAppCircle
 
 assets
 {
-    (lib/iphone/libFlurry/Analytics)
+    (lib/iphone/libFlurry/FlurryAnalytics)
     FlurryAnalytics.h
 
-    (lib/iphone/libFlurry/AppCircle)
+    (lib/iphone/libFlurry/FlurryAppCircle)
     FlurryAdDelegate.h
-    "FlurryAPI+AppCircle.h"
+    FlurryAppCircle.h
     FlurryOffer.h
 }
 
