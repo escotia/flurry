@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2001-2011 Ideaworks3D Ltd.
+ * Copyright (C) 2001-2012 Ideaworks3D Ltd.
  * All Rights Reserved.
  *
  * This document is protected by copyright, and contains information
@@ -203,6 +203,14 @@ void s3eFlurrySetDefaultText(const char* text);
  * s3eFlurry.h
  */
 void s3eFlurryShowAdBanner(const s3eBool show);
+
+/**
+ * Show Flurry App Circle Offer catalog
+ *
+ * @par Required Header Files
+ * s3eFlurry.h
+ */
+void s3eFlurryShowOfferWall();
 
 S3E_END_C_DECL
 
